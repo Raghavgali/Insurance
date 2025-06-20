@@ -1,0 +1,17 @@
+# Core Libraries
+torch>=2.0.0
+transformers>=4.51.3
+accelerate>=0.18.0
+
+# Quantization support 
+bitsandbytes>=0.39.0
+
+# Qwen vision-language utilities
+qwen-vl-utils[decord]==0.0.8
+
+# Image Processing
+Pillow 
+
+# For Data Pipelines or logging
+tqdm 
+python-dotenv
