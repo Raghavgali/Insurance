@@ -1,8 +1,9 @@
 import torch
 from transformers import StoppingCriteria, StoppingCriteriaList
-from src.model_loader import tokenizer 
+from src.model_loader import load_qwen_model
 from PIL import Image
 
+model, processor, tokenizer = load_qwen_model()
 
 class StopOnEos(StoppingCriteria):
     """
